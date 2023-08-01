@@ -1,0 +1,74 @@
+* {
+    font-family: 'Red Hat Display';
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* .background-img{
+    min-height: 50vh;
+    background-position: center;
+    padding: 0%;
+} */
+.card{
+    background-color: white;
+    margin: auto;
+    width: 450px;
+    height: 600px;
+    box-shadow: 0px 10px 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card--body > h1{
+    font-weight: bolder;
+    text-align: center;
+    color:hsl(223, 47%, 23%);
+    background-color: white;
+}
+.card--body > p{
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    background-color: white;
+    width: 370px;
+    margin: 40px;
+}
+.anual__plan--div{
+    border-radius: 10px;
+    background: hsl(225, 100%, 98%);
+    height: 54px;
+    padding: 18px;
+    margin-top: 20px;
+    text-align: left;
+    width: 3px;
+}
+.anual__plan--div > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.anual__plan--section{
+    margin-left: 15px;
+}
+.anual__plan--span{
+    font-weight: bold;
+}
+.anual__plan--a{
+    margin-left: 120px;
+}
+
+.card--button{
+    width: 370px;
+    margin: 40px;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    box-shadow: 10px 19px 10px 1px #e3e0fc;
+}
